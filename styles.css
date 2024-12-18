@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(253, 247, 238);
+    letter-spacing: 4px;
+
+}
+h1{
+    font-family: 'Futura PT Medium';
+    font-size: 40pt;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+.mainTitle{
+    text-align: center;
+    height: 40vh;
+}
+.mainTitle h1{
+    line-height: 40vh;
+}
+
+
+.header{
+    text-align: center;
+}
+.museum{
+    padding: 50px;
+}
+.pageTitle{
+    text-align: center;
+    
+}
+.frontCard{
+    position: relative;
+    color: aliceblue;
+    height: 300px;
+    background-size: cover;
+}
+
+/* Centered text */
+.frontCard a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@font-face {
+    font-family: 'Futura PT Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Medium'), url('fonts/futura-pt-cufonfonts-webfont/FuturaCyrillicMedium.woff') format('woff');
+    }
+    @font-face {
+      font-family: 'Futura PT Light';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Futura PT Light'), url('fonts/futura-pt-cufonfonts-webfont/FuturaCyrillicLight.woff') format('woff');
+      }
