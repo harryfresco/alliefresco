@@ -50,6 +50,8 @@ p a{
     color: white;
     text-decoration: none;
     cursor: pointer;
+    font-size: 15pt;
+    
   }
 
 @font-face {
