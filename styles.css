@@ -17,10 +17,10 @@ p a{
 }
 .mainTitle{
     text-align: center;
-    height: 40vh;
+   
 }
 .mainTitle h1{
-    line-height: 40vh;
+    line-height: 30vh;
 }
 
 
@@ -42,7 +42,7 @@ p a{
 }
 
 /* Centered text */
-.frontCard a{
+.frontCard p{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -51,9 +51,25 @@ p a{
     text-decoration: none;
     cursor: pointer;
     font-size: 15pt;
-    
+    transition: 0.3s;
   }
-
+.overlay{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.overlay:hover{
+    opacity: 0.3;
+    .frontCard p{
+        color: black;
+        font-weight: 500;
+    }
+}
+.mainSections{
+    padding-bottom: 15px;
+}
 @font-face {
     font-family: 'Futura PT Medium';
     font-style: normal;
