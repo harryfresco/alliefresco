@@ -7,6 +7,10 @@ h1{
     font-family: 'Futura PT Medium';
     font-size: 40pt;
 }
+h2{
+    font-family: 'Futura PT Medium';
+    font-size: 20pt;
+}
 h1 a{
     text-decoration: none;
     color: black;
@@ -52,6 +56,7 @@ p a{
     cursor: pointer;
     font-size: 15pt;
     transition: 0.3s;
+    text-align: center;
   }
 .overlay{
     background-color: rgb(255, 255, 255);
@@ -93,6 +98,14 @@ p a{
     margin-right:-50%;
     margin-left: 0;
     transform: translate(-50%, -50%);
+}
+.aboutMobile{
+    width: 60vw;
+}
+@media (max-width:637px){
+    .aboutMobile{
+        width: 90vw;
+    }
 }
 @font-face {
     font-family: 'Futura PT Medium';
