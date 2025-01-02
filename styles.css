@@ -43,6 +43,7 @@ p a{
     color: aliceblue;
     height: 300px;
     background-size: cover;
+    background-position: center;
 }
 
 /* Centered text */
