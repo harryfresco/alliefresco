@@ -120,3 +120,20 @@ p a{
       font-weight: normal;
       src: local('Futura PT Light'), url('fonts/futura-pt-cufonfonts-webfont/FuturaCyrillicLight.woff') format('woff');
       }
+
+      .backButton{
+        font-size: 7pt;
+        letter-spacing: 1px;
+        color: black;
+      }
+      .backButton:visited{
+        color: black;
+      }
+      .narrow{
+        width: 80vw;
+      }
+      @media (max-width:637px){
+        .narrow{
+            width: 100vw;
+          }
+      }
